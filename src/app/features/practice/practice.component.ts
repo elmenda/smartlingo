@@ -82,7 +82,7 @@ import { ProgressService } from '../../core/services/progress.service';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PracticeComponent {
-  readonly id = input.required<string>();
+  readonly id = input<string>('');
   readonly unit = computed(() => UNITS.find((u) => u.id === this.id()));
   readonly exercises = computed(() => this.unit()?.practice ?? []);
   readonly index = signal(0);

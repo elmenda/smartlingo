@@ -23,3 +23,8 @@ Starter, Units 1–6, Review 1–3 y Festivals, alineados con el temario del Pup
 
 Antes de subir cambios ejecuta `npm run check`. El proyecto incluye CI y despliegue a GitHub Pages desde `main`.
 La aplicación arranca en modo zoneless mediante `provideZonelessChangeDetection()` en `app.config.ts`.
+
+
+## Criterio pedagógico de la práctica
+
+La práctica no muestra la respuesta dentro del enunciado. Los ejercicios avanzan desde reconocimiento y recuperación de vocabulario hasta comprensión contextual, aplicación gramatical y comunicación. Se mezclan elección, completar, ordenar y verdadero/falso. El examen usa preguntas mezcladas y sin pistas directas.

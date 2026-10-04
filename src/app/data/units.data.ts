@@ -62,7 +62,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-v1',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «January».',
+        prompt: 'Which month starts the year?',
         options: ['April', 'February', 'January', 'March'],
         answer: 'January',
         explanation:
@@ -72,7 +72,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-v2',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «February».',
+        prompt: 'Which month comes between January and March?',
         options: ['February', 'January', 'March', 'April'],
         answer: 'February',
         explanation:
@@ -82,7 +82,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-v3',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «March».',
+        prompt: 'Which month comes after February?',
         options: ['April', 'January', 'March', 'February'],
         answer: 'March',
         explanation: 'La respuesta correcta es «March». Repítela en voz alta y úsala en una frase.',
@@ -91,7 +91,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-v4',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «April».',
+        prompt: 'Which month comes before May?',
         options: ['April', 'February', 'March', 'January'],
         answer: 'April',
         explanation: 'La respuesta correcta es «April». Repítela en voz alta y úsala en una frase.',
@@ -100,7 +100,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-v5',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «May».',
+        prompt: 'Which month comes after April?',
         options: ['March', 'January', 'May', 'February'],
         answer: 'May',
         explanation: 'La respuesta correcta es «May». Repítela en voz alta y úsala en una frase.',
@@ -109,7 +109,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-v6',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «June».',
+        prompt: 'Which month comes before July?',
         options: ['June', 'January', 'February', 'March'],
         answer: 'June',
         explanation: 'La respuesta correcta es «June». Repítela en voz alta y úsala en una frase.',
@@ -118,7 +118,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-v7',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «July».',
+        prompt: 'Which month comes after June?',
         options: ['March', 'February', 'January', 'July'],
         answer: 'July',
         explanation: 'La respuesta correcta es «July». Repítela en voz alta y úsala en una frase.',
@@ -127,7 +127,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-v8',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «August».',
+        prompt: 'Which month comes between July and September?',
         options: ['March', 'August', 'January', 'February'],
         answer: 'August',
         explanation:
@@ -137,7 +137,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-v9',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «September».',
+        prompt: 'Which month comes after August?',
         options: ['September', 'February', 'January', 'March'],
         answer: 'September',
         explanation:
@@ -147,7 +147,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-v10',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «October».',
+        prompt: 'Which month comes before November?',
         options: ['October', 'March', 'January', 'February'],
         answer: 'October',
         explanation:
@@ -157,7 +157,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-v11',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «November».',
+        prompt: 'Which month comes after October?',
         options: ['February', 'March', 'November', 'January'],
         answer: 'November',
         explanation:
@@ -167,7 +167,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-v12',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «December».',
+        prompt: 'Which month finishes the year?',
         options: ['January', 'March', 'February', 'December'],
         answer: 'December',
         explanation:
@@ -177,7 +177,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-v13',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «spring».',
+        prompt: 'Which season comes after winter?',
         options: ['February', 'March', 'spring', 'January'],
         answer: 'spring',
         explanation:
@@ -187,7 +187,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-v14',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «summer».',
+        prompt: 'Which season is usually the hottest?',
         options: ['January', 'March', 'February', 'summer'],
         answer: 'summer',
         explanation:
@@ -197,7 +197,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-v15',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «autumn».',
+        prompt: 'In which season do many leaves fall from trees?',
         options: ['February', 'autumn', 'March', 'January'],
         answer: 'autumn',
         explanation:
@@ -207,7 +207,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-v16',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «winter».',
+        prompt: 'Which season is usually the coldest?',
         options: ['winter', 'February', 'March', 'January'],
         answer: 'winter',
         explanation:
@@ -269,7 +269,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-r1',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = January.',
+        prompt: 'Escribe en inglés: «enero».',
         answer: 'January',
         explanation: 'La expresión que estamos fijando es «January».',
         skill: 'vocabulary',
@@ -277,8 +277,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-r2',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = February.',
+        prompt: 'Escribe en inglés: «febrero».',
         answer: 'February',
         explanation: 'La expresión que estamos fijando es «February».',
         skill: 'vocabulary',
@@ -286,7 +285,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-r3',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = March.',
+        prompt: 'Escribe en inglés: «marzo».',
         answer: 'March',
         explanation: 'La expresión que estamos fijando es «March».',
         skill: 'vocabulary',
@@ -294,7 +293,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-r4',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = April.',
+        prompt: 'Escribe en inglés: «abril».',
         answer: 'April',
         explanation: 'La expresión que estamos fijando es «April».',
         skill: 'vocabulary',
@@ -302,7 +301,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-r5',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = May.',
+        prompt: 'Escribe en inglés: «mayo».',
         answer: 'May',
         explanation: 'La expresión que estamos fijando es «May».',
         skill: 'vocabulary',
@@ -310,7 +309,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-r6',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = June.',
+        prompt: 'Escribe en inglés: «junio».',
         answer: 'June',
         explanation: 'La expresión que estamos fijando es «June».',
         skill: 'vocabulary',
@@ -318,7 +317,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-r7',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = July.',
+        prompt: 'Escribe en inglés: «julio».',
         answer: 'July',
         explanation: 'La expresión que estamos fijando es «July».',
         skill: 'vocabulary',
@@ -326,7 +325,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-r8',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = August.',
+        prompt: 'Escribe en inglés: «agosto».',
         answer: 'August',
         explanation: 'La expresión que estamos fijando es «August».',
         skill: 'vocabulary',
@@ -334,8 +333,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-r9',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = September.',
+        prompt: 'Escribe en inglés: «septiembre».',
         answer: 'September',
         explanation: 'La expresión que estamos fijando es «September».',
         skill: 'vocabulary',
@@ -343,7 +341,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-r10',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = October.',
+        prompt: 'Escribe en inglés: «octubre».',
         answer: 'October',
         explanation: 'La expresión que estamos fijando es «October».',
         skill: 'vocabulary',
@@ -353,7 +351,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-exam-1',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «January».',
+        prompt: 'Which month starts the year?',
         options: ['April', 'February', 'January', 'March'],
         answer: 'January',
         explanation:
@@ -363,7 +361,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-exam-2',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «February».',
+        prompt: 'Which month comes between January and March?',
         options: ['February', 'January', 'March', 'April'],
         answer: 'February',
         explanation:
@@ -373,7 +371,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-exam-3',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «March».',
+        prompt: 'Which month comes after February?',
         options: ['April', 'January', 'March', 'February'],
         answer: 'March',
         explanation: 'La respuesta correcta es «March». Repítela en voz alta y úsala en una frase.',
@@ -382,7 +380,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-exam-4',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «April».',
+        prompt: 'Which month comes before May?',
         options: ['April', 'February', 'March', 'January'],
         answer: 'April',
         explanation: 'La respuesta correcta es «April». Repítela en voz alta y úsala en una frase.',
@@ -391,7 +389,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-exam-5',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «May».',
+        prompt: 'Which month comes after April?',
         options: ['March', 'January', 'May', 'February'],
         answer: 'May',
         explanation: 'La respuesta correcta es «May». Repítela en voz alta y úsala en una frase.',
@@ -400,7 +398,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-exam-6',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «June».',
+        prompt: 'Which month comes before July?',
         options: ['June', 'January', 'February', 'March'],
         answer: 'June',
         explanation: 'La respuesta correcta es «June». Repítela en voz alta y úsala en una frase.',
@@ -409,7 +407,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-exam-7',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «July».',
+        prompt: 'Which month comes after June?',
         options: ['March', 'February', 'January', 'July'],
         answer: 'July',
         explanation: 'La respuesta correcta es «July». Repítela en voz alta y úsala en una frase.',
@@ -418,7 +416,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-exam-8',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «August».',
+        prompt: 'Which month comes between July and September?',
         options: ['March', 'August', 'January', 'February'],
         answer: 'August',
         explanation:
@@ -428,7 +426,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-exam-9',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «September».',
+        prompt: 'Which month comes after August?',
         options: ['September', 'February', 'January', 'March'],
         answer: 'September',
         explanation:
@@ -438,7 +436,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-exam-10',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «October».',
+        prompt: 'Which month comes before November?',
         options: ['October', 'March', 'January', 'February'],
         answer: 'October',
         explanation:
@@ -448,7 +446,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-exam-11',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «November».',
+        prompt: 'Which month comes after October?',
         options: ['February', 'March', 'November', 'January'],
         answer: 'November',
         explanation:
@@ -458,7 +456,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-exam-12',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «December».',
+        prompt: 'Which month finishes the year?',
         options: ['January', 'March', 'February', 'December'],
         answer: 'December',
         explanation:
@@ -468,7 +466,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-exam-13',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «spring».',
+        prompt: 'Which season comes after winter?',
         options: ['February', 'March', 'spring', 'January'],
         answer: 'spring',
         explanation:
@@ -478,7 +476,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-exam-14',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «summer».',
+        prompt: 'Which season is usually the hottest?',
         options: ['January', 'March', 'February', 'summer'],
         answer: 'summer',
         explanation:
@@ -488,7 +486,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-exam-15',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «autumn».',
+        prompt: 'In which season do many leaves fall from trees?',
         options: ['February', 'autumn', 'March', 'January'],
         answer: 'autumn',
         explanation:
@@ -498,7 +496,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'starter-exam-16',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «winter».',
+        prompt: 'Which season is usually the coldest?',
         options: ['winter', 'February', 'March', 'January'],
         answer: 'winter',
         explanation:
@@ -595,7 +593,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-v1',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «art».',
+        prompt: 'You draw and paint pictures in this subject. What is it?',
         options: ['ICT', 'art', 'French', 'drama'],
         answer: 'art',
         explanation: 'La respuesta correcta es «art». Repítela en voz alta y úsala en una frase.',
@@ -604,7 +602,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-v2',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «drama».',
+        prompt: 'You act and perform plays in this subject. What is it?',
         options: ['ICT', 'French', 'art', 'drama'],
         answer: 'drama',
         explanation: 'La respuesta correcta es «drama». Repítela en voz alta y úsala en una frase.',
@@ -613,7 +611,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-v3',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «French».',
+        prompt: 'You learn to speak a language from France. What subject is it?',
         options: ['French', 'drama', 'ICT', 'art'],
         answer: 'French',
         explanation:
@@ -623,7 +621,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-v4',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «ICT».',
+        prompt: 'You learn about and use computers in this subject. What is it?',
         options: ['French', 'drama', 'art', 'ICT'],
         answer: 'ICT',
         explanation: 'La respuesta correcta es «ICT». Repítela en voz alta y úsala en una frase.',
@@ -632,7 +630,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-v5',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «literature».',
+        prompt: 'You read and talk about books and stories in this subject. What is it?',
         options: ['art', 'French', 'drama', 'literature'],
         answer: 'literature',
         explanation:
@@ -642,7 +640,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-v6',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «maths».',
+        prompt: 'You work with numbers and calculations in this subject. What is it?',
         options: ['French', 'drama', 'art', 'maths'],
         answer: 'maths',
         explanation: 'La respuesta correcta es «maths». Repítela en voz alta y úsala en una frase.',
@@ -651,7 +649,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-v7',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «music».',
+        prompt: 'You sing, listen to songs and play instruments in this subject. What is it?',
         options: ['music', 'art', 'drama', 'French'],
         answer: 'music',
         explanation: 'La respuesta correcta es «music». Repítela en voz alta y úsala en una frase.',
@@ -660,7 +658,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-v8',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «natural science».',
+        prompt: 'You learn about nature, animals and the human body. What subject is it?',
         options: ['French', 'drama', 'natural science', 'art'],
         answer: 'natural science',
         explanation:
@@ -670,7 +668,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-v9',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «PE».',
+        prompt: 'You run, jump and do sport in this subject. What is it?',
         options: ['French', 'drama', 'art', 'PE'],
         answer: 'PE',
         explanation: 'La respuesta correcta es «PE». Repítela en voz alta y úsala en una frase.',
@@ -679,7 +677,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-v10',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «social science».',
+        prompt: 'You learn about people, places and society in this subject. What is it?',
         options: ['art', 'French', 'social science', 'drama'],
         answer: 'social science',
         explanation:
@@ -749,7 +747,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-r1',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = art.',
+        prompt: 'Escribe en inglés: «plástica / arte».',
         answer: 'art',
         explanation: 'La expresión que estamos fijando es «art».',
         skill: 'vocabulary',
@@ -757,7 +755,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-r2',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = drama.',
+        prompt: 'Escribe en inglés: «teatro».',
         answer: 'drama',
         explanation: 'La expresión que estamos fijando es «drama».',
         skill: 'vocabulary',
@@ -765,7 +763,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-r3',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = French.',
+        prompt: 'Escribe en inglés: «francés».',
         answer: 'French',
         explanation: 'La expresión que estamos fijando es «French».',
         skill: 'vocabulary',
@@ -773,7 +771,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-r4',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = ICT.',
+        prompt: 'Escribe en inglés: «informática / TIC».',
         answer: 'ICT',
         explanation: 'La expresión que estamos fijando es «ICT».',
         skill: 'vocabulary',
@@ -781,8 +779,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-r5',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = literature.',
+        prompt: 'Escribe en inglés: «literatura».',
         answer: 'literature',
         explanation: 'La expresión que estamos fijando es «literature».',
         skill: 'vocabulary',
@@ -790,7 +787,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-r6',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = maths.',
+        prompt: 'Escribe en inglés: «matemáticas».',
         answer: 'maths',
         explanation: 'La expresión que estamos fijando es «maths».',
         skill: 'vocabulary',
@@ -798,7 +795,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-r7',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = music.',
+        prompt: 'Escribe en inglés: «música».',
         answer: 'music',
         explanation: 'La expresión que estamos fijando es «music».',
         skill: 'vocabulary',
@@ -806,8 +803,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-r8',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = natural science.',
+        prompt: 'Escribe en inglés: «ciencias naturales».',
         answer: 'natural science',
         explanation: 'La expresión que estamos fijando es «natural science».',
         skill: 'vocabulary',
@@ -815,7 +811,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-r9',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = PE.',
+        prompt: 'Escribe en inglés: «educación física».',
         answer: 'PE',
         explanation: 'La expresión que estamos fijando es «PE».',
         skill: 'vocabulary',
@@ -823,8 +819,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-r10',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = social science.',
+        prompt: 'Escribe en inglés: «ciencias sociales».',
         answer: 'social science',
         explanation: 'La expresión que estamos fijando es «social science».',
         skill: 'vocabulary',
@@ -834,7 +829,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-exam-1',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «art».',
+        prompt: 'You draw and paint pictures in this subject. What is it?',
         options: ['ICT', 'art', 'French', 'drama'],
         answer: 'art',
         explanation: 'La respuesta correcta es «art». Repítela en voz alta y úsala en una frase.',
@@ -843,7 +838,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-exam-2',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «drama».',
+        prompt: 'You act and perform plays in this subject. What is it?',
         options: ['ICT', 'French', 'art', 'drama'],
         answer: 'drama',
         explanation: 'La respuesta correcta es «drama». Repítela en voz alta y úsala en una frase.',
@@ -852,7 +847,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-exam-3',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «French».',
+        prompt: 'You learn to speak a language from France. What subject is it?',
         options: ['French', 'drama', 'ICT', 'art'],
         answer: 'French',
         explanation:
@@ -862,7 +857,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-exam-4',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «ICT».',
+        prompt: 'You learn about and use computers in this subject. What is it?',
         options: ['French', 'drama', 'art', 'ICT'],
         answer: 'ICT',
         explanation: 'La respuesta correcta es «ICT». Repítela en voz alta y úsala en una frase.',
@@ -871,7 +866,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-exam-5',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «literature».',
+        prompt: 'You read and talk about books and stories in this subject. What is it?',
         options: ['art', 'French', 'drama', 'literature'],
         answer: 'literature',
         explanation:
@@ -881,7 +876,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-exam-6',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «maths».',
+        prompt: 'You work with numbers and calculations in this subject. What is it?',
         options: ['French', 'drama', 'art', 'maths'],
         answer: 'maths',
         explanation: 'La respuesta correcta es «maths». Repítela en voz alta y úsala en una frase.',
@@ -890,7 +885,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-exam-7',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «music».',
+        prompt: 'You sing, listen to songs and play instruments in this subject. What is it?',
         options: ['music', 'art', 'drama', 'French'],
         answer: 'music',
         explanation: 'La respuesta correcta es «music». Repítela en voz alta y úsala en una frase.',
@@ -899,7 +894,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-exam-8',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «natural science».',
+        prompt: 'You learn about nature, animals and the human body. What subject is it?',
         options: ['French', 'drama', 'natural science', 'art'],
         answer: 'natural science',
         explanation:
@@ -909,7 +904,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-exam-9',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «PE».',
+        prompt: 'You run, jump and do sport in this subject. What is it?',
         options: ['French', 'drama', 'art', 'PE'],
         answer: 'PE',
         explanation: 'La respuesta correcta es «PE». Repítela en voz alta y úsala en una frase.',
@@ -918,7 +913,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-exam-10',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «social science».',
+        prompt: 'You learn about people, places and society in this subject. What is it?',
         options: ['art', 'French', 'social science', 'drama'],
         answer: 'social science',
         explanation:
@@ -988,7 +983,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-exam-18',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = art.',
+        prompt: 'Escribe en inglés: «plástica / arte».',
         answer: 'art',
         explanation: 'La expresión que estamos fijando es «art».',
         skill: 'vocabulary',
@@ -996,7 +991,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-exam-19',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = drama.',
+        prompt: 'Escribe en inglés: «teatro».',
         answer: 'drama',
         explanation: 'La expresión que estamos fijando es «drama».',
         skill: 'vocabulary',
@@ -1004,7 +999,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-1-exam-20',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = French.',
+        prompt: 'Escribe en inglés: «francés».',
         answer: 'French',
         explanation: 'La expresión que estamos fijando es «French».',
         skill: 'vocabulary',
@@ -1071,7 +1066,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-v1',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «visit museums».',
+        prompt: 'You go to places with exhibitions and old or interesting objects. What activity is it?',
         options: ['play the piano', 'visit museums', 'paint pictures', 'visit your grandparents'],
         answer: 'visit museums',
         explanation:
@@ -1081,7 +1076,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-v2',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «paint pictures».',
+        prompt: 'You use paint and colours to create an image. What activity is it?',
         options: ['play the piano', 'visit your grandparents', 'paint pictures', 'visit museums'],
         answer: 'paint pictures',
         explanation:
@@ -1091,7 +1086,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-v3',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «visit your grandparents».',
+        prompt: 'You go to see your grandmother and grandfather. What activity is it?',
         options: ['visit museums', 'paint pictures', 'visit your grandparents', 'play the piano'],
         answer: 'visit your grandparents',
         explanation:
@@ -1101,7 +1096,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-v4',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «play the piano».',
+        prompt: 'You make music using black and white keys. What activity is it?',
         options: ['play the piano', 'paint pictures', 'visit museums', 'visit your grandparents'],
         answer: 'play the piano',
         explanation:
@@ -1111,7 +1106,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-v5',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «make cakes».',
+        prompt: 'You prepare a sweet food and bake it. What activity is it?',
         options: ['visit museums', 'visit your grandparents', 'paint pictures', 'make cakes'],
         answer: 'make cakes',
         explanation:
@@ -1121,7 +1116,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-v6',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «play card games».',
+        prompt: 'You use a pack of cards to play. What activity is it?',
         options: ['paint pictures', 'play card games', 'visit your grandparents', 'visit museums'],
         answer: 'play card games',
         explanation:
@@ -1131,7 +1126,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-v7',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «make videos».',
+        prompt: 'You record moving images with a phone or camera. What activity is it?',
         options: ['make videos', 'paint pictures', 'visit museums', 'visit your grandparents'],
         answer: 'make videos',
         explanation:
@@ -1141,7 +1136,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-v8',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «watch sport».',
+        prompt: 'You look at a football match or another sporting event. What activity is it?',
         options: ['paint pictures', 'visit your grandparents', 'watch sport', 'visit museums'],
         answer: 'watch sport',
         explanation:
@@ -1151,7 +1146,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-v9',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «draw pictures».',
+        prompt: 'You use a pencil or pen to create pictures. What activity is it?',
         options: ['draw pictures', 'paint pictures', 'visit your grandparents', 'visit museums'],
         answer: 'draw pictures',
         explanation:
@@ -1161,7 +1156,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-v10',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «watch films».',
+        prompt: 'You see movies at home or at the cinema. What activity is it?',
         options: ['paint pictures', 'watch films', 'visit your grandparents', 'visit museums'],
         answer: 'watch films',
         explanation:
@@ -1222,8 +1217,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-r1',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = visit museums.',
+        prompt: 'Escribe en inglés: «visitar museos».',
         answer: 'visit museums',
         explanation: 'La expresión que estamos fijando es «visit museums».',
         skill: 'vocabulary',
@@ -1231,8 +1225,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-r2',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = paint pictures.',
+        prompt: 'Escribe en inglés: «pintar cuadros».',
         answer: 'paint pictures',
         explanation: 'La expresión que estamos fijando es «paint pictures».',
         skill: 'vocabulary',
@@ -1240,8 +1233,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-r3',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = visit your grandparents.',
+        prompt: 'Escribe en inglés: «visitar a tus abuelos».',
         answer: 'visit your grandparents',
         explanation: 'La expresión que estamos fijando es «visit your grandparents».',
         skill: 'vocabulary',
@@ -1249,8 +1241,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-r4',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = play the piano.',
+        prompt: 'Escribe en inglés: «tocar el piano».',
         answer: 'play the piano',
         explanation: 'La expresión que estamos fijando es «play the piano».',
         skill: 'vocabulary',
@@ -1258,8 +1249,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-r5',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = make cakes.',
+        prompt: 'Escribe en inglés: «hacer pasteles».',
         answer: 'make cakes',
         explanation: 'La expresión que estamos fijando es «make cakes».',
         skill: 'vocabulary',
@@ -1267,8 +1257,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-r6',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = play card games.',
+        prompt: 'Escribe en inglés: «jugar a juegos de cartas».',
         answer: 'play card games',
         explanation: 'La expresión que estamos fijando es «play card games».',
         skill: 'vocabulary',
@@ -1276,8 +1265,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-r7',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = make videos.',
+        prompt: 'Escribe en inglés: «hacer vídeos».',
         answer: 'make videos',
         explanation: 'La expresión que estamos fijando es «make videos».',
         skill: 'vocabulary',
@@ -1285,8 +1273,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-r8',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = watch sport.',
+        prompt: 'Escribe en inglés: «ver deportes».',
         answer: 'watch sport',
         explanation: 'La expresión que estamos fijando es «watch sport».',
         skill: 'vocabulary',
@@ -1294,8 +1281,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-r9',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = draw pictures.',
+        prompt: 'Escribe en inglés: «dibujar».',
         answer: 'draw pictures',
         explanation: 'La expresión que estamos fijando es «draw pictures».',
         skill: 'vocabulary',
@@ -1303,8 +1289,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-r10',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = watch films.',
+        prompt: 'Escribe en inglés: «ver películas».',
         answer: 'watch films',
         explanation: 'La expresión que estamos fijando es «watch films».',
         skill: 'vocabulary',
@@ -1314,7 +1299,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-exam-1',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «visit museums».',
+        prompt: 'You go to places with exhibitions and old or interesting objects. What activity is it?',
         options: ['play the piano', 'visit museums', 'paint pictures', 'visit your grandparents'],
         answer: 'visit museums',
         explanation:
@@ -1324,7 +1309,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-exam-2',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «paint pictures».',
+        prompt: 'You use paint and colours to create an image. What activity is it?',
         options: ['play the piano', 'visit your grandparents', 'paint pictures', 'visit museums'],
         answer: 'paint pictures',
         explanation:
@@ -1334,7 +1319,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-exam-3',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «visit your grandparents».',
+        prompt: 'You go to see your grandmother and grandfather. What activity is it?',
         options: ['visit museums', 'paint pictures', 'visit your grandparents', 'play the piano'],
         answer: 'visit your grandparents',
         explanation:
@@ -1344,7 +1329,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-exam-4',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «play the piano».',
+        prompt: 'You make music using black and white keys. What activity is it?',
         options: ['play the piano', 'paint pictures', 'visit museums', 'visit your grandparents'],
         answer: 'play the piano',
         explanation:
@@ -1354,7 +1339,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-exam-5',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «make cakes».',
+        prompt: 'You prepare a sweet food and bake it. What activity is it?',
         options: ['visit museums', 'visit your grandparents', 'paint pictures', 'make cakes'],
         answer: 'make cakes',
         explanation:
@@ -1364,7 +1349,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-exam-6',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «play card games».',
+        prompt: 'You use a pack of cards to play. What activity is it?',
         options: ['paint pictures', 'play card games', 'visit your grandparents', 'visit museums'],
         answer: 'play card games',
         explanation:
@@ -1374,7 +1359,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-exam-7',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «make videos».',
+        prompt: 'You record moving images with a phone or camera. What activity is it?',
         options: ['make videos', 'paint pictures', 'visit museums', 'visit your grandparents'],
         answer: 'make videos',
         explanation:
@@ -1384,7 +1369,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-exam-8',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «watch sport».',
+        prompt: 'You look at a football match or another sporting event. What activity is it?',
         options: ['paint pictures', 'visit your grandparents', 'watch sport', 'visit museums'],
         answer: 'watch sport',
         explanation:
@@ -1394,7 +1379,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-exam-9',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «draw pictures».',
+        prompt: 'You use a pencil or pen to create pictures. What activity is it?',
         options: ['draw pictures', 'paint pictures', 'visit your grandparents', 'visit museums'],
         answer: 'draw pictures',
         explanation:
@@ -1404,7 +1389,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-exam-10',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «watch films».',
+        prompt: 'You see movies at home or at the cinema. What activity is it?',
         options: ['paint pictures', 'watch films', 'visit your grandparents', 'visit museums'],
         answer: 'watch films',
         explanation:
@@ -1465,8 +1450,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-exam-17',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = visit museums.',
+        prompt: 'Escribe en inglés: «visitar museos».',
         answer: 'visit museums',
         explanation: 'La expresión que estamos fijando es «visit museums».',
         skill: 'vocabulary',
@@ -1474,8 +1458,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-exam-18',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = paint pictures.',
+        prompt: 'Escribe en inglés: «pintar cuadros».',
         answer: 'paint pictures',
         explanation: 'La expresión que estamos fijando es «paint pictures».',
         skill: 'vocabulary',
@@ -1483,8 +1466,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-exam-19',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = visit your grandparents.',
+        prompt: 'Escribe en inglés: «visitar a tus abuelos».',
         answer: 'visit your grandparents',
         explanation: 'La expresión que estamos fijando es «visit your grandparents».',
         skill: 'vocabulary',
@@ -1492,8 +1474,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-exam-20',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = play the piano.',
+        prompt: 'Escribe en inglés: «tocar el piano».',
         answer: 'play the piano',
         explanation: 'La expresión que estamos fijando es «play the piano».',
         skill: 'vocabulary',
@@ -1553,7 +1534,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-v1',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «train station».',
+        prompt: 'Where do you go to catch a train?',
         options: ['food market', 'train station', 'cinema', "newsagent's"],
         answer: 'train station',
         explanation:
@@ -1563,7 +1544,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-v2',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «cinema».',
+        prompt: 'Where do you go to watch a film on a big screen?',
         options: ['food market', 'train station', 'cinema', "newsagent's"],
         answer: 'cinema',
         explanation:
@@ -1573,7 +1554,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-v3',
         type: 'choice',
-        prompt: "Elige la opción correcta para practicar: «newsagent's».",
+        prompt: "Where can you buy newspapers and magazines?",
         options: ['food market', "newsagent's", 'train station', 'cinema'],
         answer: "newsagent's",
         explanation:
@@ -1583,7 +1564,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-v4',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «food market».',
+        prompt: 'Where can you buy food from different stalls?',
         options: ['train station', "newsagent's", 'cinema', 'food market'],
         answer: 'food market',
         explanation:
@@ -1593,7 +1574,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-v5',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «police station».',
+        prompt: 'Where do police officers work?',
         options: ['cinema', "newsagent's", 'police station', 'train station'],
         answer: 'police station',
         explanation:
@@ -1603,7 +1584,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-v6',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «bookshop».',
+        prompt: 'Where can you buy books?',
         options: ["newsagent's", 'bookshop', 'train station', 'cinema'],
         answer: 'bookshop',
         explanation:
@@ -1613,7 +1594,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-v7',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «café».',
+        prompt: 'Where can you sit and have a drink or snack?',
         options: ["newsagent's", 'cinema', 'train station', 'café'],
         answer: 'café',
         explanation: 'La respuesta correcta es «café». Repítela en voz alta y úsala en una frase.',
@@ -1622,7 +1603,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-v8',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «bus stop».',
+        prompt: 'Where do you wait for a bus?',
         options: ["newsagent's", 'cinema', 'bus stop', 'train station'],
         answer: 'bus stop',
         explanation:
@@ -1632,7 +1613,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-v9',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «toy shop».',
+        prompt: 'Where can you buy toys?',
         options: ['toy shop', "newsagent's", 'train station', 'cinema'],
         answer: 'toy shop',
         explanation:
@@ -1642,7 +1623,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-v10',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «theatre».',
+        prompt: 'Where do you go to watch a play?',
         options: ['theatre', "newsagent's", 'train station', 'cinema'],
         answer: 'theatre',
         explanation:
@@ -1703,8 +1684,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-r1',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = train station.',
+        prompt: 'Escribe en inglés: «estación de tren».',
         answer: 'train station',
         explanation: 'La expresión que estamos fijando es «train station».',
         skill: 'vocabulary',
@@ -1712,7 +1692,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-r2',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = cinema.',
+        prompt: 'Escribe en inglés: «cine».',
         answer: 'cinema',
         explanation: 'La expresión que estamos fijando es «cinema».',
         skill: 'vocabulary',
@@ -1720,8 +1700,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-r3',
         type: 'fill',
-        prompt:
-          "Escribe exactamente la palabra o expresión que falta: I remember «___» = newsagent's.",
+        prompt: 'Escribe en inglés la palabra o expresión estudiada a partir de su significado.',
         answer: "newsagent's",
         explanation: "La expresión que estamos fijando es «newsagent's».",
         skill: 'vocabulary',
@@ -1729,8 +1708,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-r4',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = food market.',
+        prompt: 'Escribe en inglés: «mercado de comida».',
         answer: 'food market',
         explanation: 'La expresión que estamos fijando es «food market».',
         skill: 'vocabulary',
@@ -1738,8 +1716,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-r5',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = police station.',
+        prompt: 'Escribe en inglés: «comisaría».',
         answer: 'police station',
         explanation: 'La expresión que estamos fijando es «police station».',
         skill: 'vocabulary',
@@ -1747,8 +1724,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-r6',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = bookshop.',
+        prompt: 'Escribe en inglés: «librería».',
         answer: 'bookshop',
         explanation: 'La expresión que estamos fijando es «bookshop».',
         skill: 'vocabulary',
@@ -1756,7 +1732,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-r7',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = café.',
+        prompt: 'Escribe en inglés: «cafetería».',
         answer: 'café',
         explanation: 'La expresión que estamos fijando es «café».',
         skill: 'vocabulary',
@@ -1764,8 +1740,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-r8',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = bus stop.',
+        prompt: 'Escribe en inglés: «parada de autobús».',
         answer: 'bus stop',
         explanation: 'La expresión que estamos fijando es «bus stop».',
         skill: 'vocabulary',
@@ -1773,8 +1748,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-r9',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = toy shop.',
+        prompt: 'Escribe en inglés: «tienda de juguetes».',
         answer: 'toy shop',
         explanation: 'La expresión que estamos fijando es «toy shop».',
         skill: 'vocabulary',
@@ -1782,7 +1756,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-r10',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = theatre.',
+        prompt: 'Escribe en inglés: «teatro».',
         answer: 'theatre',
         explanation: 'La expresión que estamos fijando es «theatre».',
         skill: 'vocabulary',
@@ -1792,7 +1766,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-exam-1',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «train station».',
+        prompt: 'Where do you go to catch a train?',
         options: ['food market', 'train station', 'cinema', "newsagent's"],
         answer: 'train station',
         explanation:
@@ -1802,7 +1776,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-exam-2',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «cinema».',
+        prompt: 'Where do you go to watch a film on a big screen?',
         options: ['food market', 'train station', 'cinema', "newsagent's"],
         answer: 'cinema',
         explanation:
@@ -1812,7 +1786,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-exam-3',
         type: 'choice',
-        prompt: "Elige la opción correcta para practicar: «newsagent's».",
+        prompt: "Where can you buy newspapers and magazines?",
         options: ['food market', "newsagent's", 'train station', 'cinema'],
         answer: "newsagent's",
         explanation:
@@ -1822,7 +1796,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-exam-4',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «food market».',
+        prompt: 'Where can you buy food from different stalls?',
         options: ['train station', "newsagent's", 'cinema', 'food market'],
         answer: 'food market',
         explanation:
@@ -1832,7 +1806,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-exam-5',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «police station».',
+        prompt: 'Where do police officers work?',
         options: ['cinema', "newsagent's", 'police station', 'train station'],
         answer: 'police station',
         explanation:
@@ -1842,7 +1816,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-exam-6',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «bookshop».',
+        prompt: 'Where can you buy books?',
         options: ["newsagent's", 'bookshop', 'train station', 'cinema'],
         answer: 'bookshop',
         explanation:
@@ -1852,7 +1826,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-exam-7',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «café».',
+        prompt: 'Where can you sit and have a drink or snack?',
         options: ["newsagent's", 'cinema', 'train station', 'café'],
         answer: 'café',
         explanation: 'La respuesta correcta es «café». Repítela en voz alta y úsala en una frase.',
@@ -1861,7 +1835,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-exam-8',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «bus stop».',
+        prompt: 'Where do you wait for a bus?',
         options: ["newsagent's", 'cinema', 'bus stop', 'train station'],
         answer: 'bus stop',
         explanation:
@@ -1871,7 +1845,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-exam-9',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «toy shop».',
+        prompt: 'Where can you buy toys?',
         options: ['toy shop', "newsagent's", 'train station', 'cinema'],
         answer: 'toy shop',
         explanation:
@@ -1881,7 +1855,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-exam-10',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «theatre».',
+        prompt: 'Where do you go to watch a play?',
         options: ['theatre', "newsagent's", 'train station', 'cinema'],
         answer: 'theatre',
         explanation:
@@ -1942,8 +1916,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-exam-17',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = train station.',
+        prompt: 'Escribe en inglés: «estación de tren».',
         answer: 'train station',
         explanation: 'La expresión que estamos fijando es «train station».',
         skill: 'vocabulary',
@@ -1951,7 +1924,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-exam-18',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = cinema.',
+        prompt: 'Escribe en inglés: «cine».',
         answer: 'cinema',
         explanation: 'La expresión que estamos fijando es «cinema».',
         skill: 'vocabulary',
@@ -1959,8 +1932,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-exam-19',
         type: 'fill',
-        prompt:
-          "Escribe exactamente la palabra o expresión que falta: I remember «___» = newsagent's.",
+        prompt: 'Escribe en inglés la palabra o expresión estudiada a partir de su significado.',
         answer: "newsagent's",
         explanation: "La expresión que estamos fijando es «newsagent's».",
         skill: 'vocabulary',
@@ -1968,8 +1940,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-exam-20',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = food market.',
+        prompt: 'Escribe en inglés: «mercado de comida».',
         answer: 'food market',
         explanation: 'La expresión que estamos fijando es «food market».',
         skill: 'vocabulary',
@@ -2037,7 +2008,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-v1',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «scarf».',
+        prompt: 'You wear this around your neck when it is cold. What is it?',
         options: ['scarf', 'watch', 'wallet', 'belt'],
         answer: 'scarf',
         explanation: 'La respuesta correcta es «scarf». Repítela en voz alta y úsala en una frase.',
@@ -2046,7 +2017,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-v2',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «watch».',
+        prompt: 'You wear this on your wrist to tell the time. What is it?',
         options: ['wallet', 'belt', 'scarf', 'watch'],
         answer: 'watch',
         explanation: 'La respuesta correcta es «watch». Repítela en voz alta y úsala en una frase.',
@@ -2055,7 +2026,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-v3',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «belt».',
+        prompt: 'You wear this around your waist. What is it?',
         options: ['wallet', 'watch', 'scarf', 'belt'],
         answer: 'belt',
         explanation: 'La respuesta correcta es «belt». Repítela en voz alta y úsala en una frase.',
@@ -2064,7 +2035,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-v4',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «wallet».',
+        prompt: 'You keep money and cards in this. What is it?',
         options: ['wallet', 'scarf', 'watch', 'belt'],
         answer: 'wallet',
         explanation:
@@ -2074,7 +2045,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-v5',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «bracelet».',
+        prompt: 'You wear this piece of jewellery around your wrist. What is it?',
         options: ['bracelet', 'watch', 'scarf', 'belt'],
         answer: 'bracelet',
         explanation:
@@ -2084,7 +2055,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-v6',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «ring».',
+        prompt: 'You wear this piece of jewellery on a finger. What is it?',
         options: ['ring', 'scarf', 'watch', 'belt'],
         answer: 'ring',
         explanation: 'La respuesta correcta es «ring». Repítela en voz alta y úsala en una frase.',
@@ -2093,7 +2064,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-v7',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «suitcase».',
+        prompt: 'You put clothes in this when you travel. What is it?',
         options: ['scarf', 'belt', 'watch', 'suitcase'],
         answer: 'suitcase',
         explanation:
@@ -2103,7 +2074,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-v8',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «cap».',
+        prompt: 'You wear this on your head. What is it?',
         options: ['belt', 'watch', 'scarf', 'cap'],
         answer: 'cap',
         explanation: 'La respuesta correcta es «cap». Repítela en voz alta y úsala en una frase.',
@@ -2112,7 +2083,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-v9',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «umbrella».',
+        prompt: 'You use this to stay dry in the rain. What is it?',
         options: ['umbrella', 'belt', 'scarf', 'watch'],
         answer: 'umbrella',
         explanation:
@@ -2122,7 +2093,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-v10',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «gloves».',
+        prompt: 'You wear these on your hands when it is cold. What are they?',
         options: ['belt', 'watch', 'gloves', 'scarf'],
         answer: 'gloves',
         explanation:
@@ -2132,7 +2103,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-v11',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «cotton».',
+        prompt: 'Which soft natural material is often used to make T-shirts?',
         options: ['cotton', 'belt', 'scarf', 'watch'],
         answer: 'cotton',
         explanation:
@@ -2142,7 +2113,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-v12',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «gold».',
+        prompt: 'Which yellow precious metal is used for jewellery?',
         options: ['belt', 'watch', 'gold', 'scarf'],
         answer: 'gold',
         explanation: 'La respuesta correcta es «gold». Repítela en voz alta y úsala en una frase.',
@@ -2151,7 +2122,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-v13',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «leather».',
+        prompt: 'Which material can be used for shoes and comes from animal skin?',
         options: ['scarf', 'belt', 'watch', 'leather'],
         answer: 'leather',
         explanation:
@@ -2161,7 +2132,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-v14',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «rubber».',
+        prompt: 'Which flexible material is used for things such as boots and tyres?',
         options: ['scarf', 'belt', 'watch', 'rubber'],
         answer: 'rubber',
         explanation:
@@ -2171,7 +2142,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-v15',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «silver».',
+        prompt: 'Which grey precious metal is used for jewellery?',
         options: ['watch', 'silver', 'belt', 'scarf'],
         answer: 'silver',
         explanation:
@@ -2181,7 +2152,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-v16',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «wool».',
+        prompt: 'Which warm material can come from sheep?',
         options: ['scarf', 'belt', 'watch', 'wool'],
         answer: 'wool',
         explanation: 'La respuesta correcta es «wool». Repítela en voz alta y úsala en una frase.',
@@ -2242,7 +2213,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-r1',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = scarf.',
+        prompt: 'Escribe en inglés: «bufanda».',
         answer: 'scarf',
         explanation: 'La expresión que estamos fijando es «scarf».',
         skill: 'vocabulary',
@@ -2250,7 +2221,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-r2',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = watch.',
+        prompt: 'Escribe en inglés: «reloj».',
         answer: 'watch',
         explanation: 'La expresión que estamos fijando es «watch».',
         skill: 'vocabulary',
@@ -2258,7 +2229,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-r3',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = belt.',
+        prompt: 'Escribe en inglés: «cinturón».',
         answer: 'belt',
         explanation: 'La expresión que estamos fijando es «belt».',
         skill: 'vocabulary',
@@ -2266,7 +2237,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-r4',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = wallet.',
+        prompt: 'Escribe en inglés: «cartera».',
         answer: 'wallet',
         explanation: 'La expresión que estamos fijando es «wallet».',
         skill: 'vocabulary',
@@ -2274,8 +2245,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-r5',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = bracelet.',
+        prompt: 'Escribe en inglés: «pulsera».',
         answer: 'bracelet',
         explanation: 'La expresión que estamos fijando es «bracelet».',
         skill: 'vocabulary',
@@ -2283,7 +2253,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-r6',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = ring.',
+        prompt: 'Escribe en inglés: «anillo».',
         answer: 'ring',
         explanation: 'La expresión que estamos fijando es «ring».',
         skill: 'vocabulary',
@@ -2291,8 +2261,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-r7',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = suitcase.',
+        prompt: 'Escribe en inglés: «maleta».',
         answer: 'suitcase',
         explanation: 'La expresión que estamos fijando es «suitcase».',
         skill: 'vocabulary',
@@ -2300,7 +2269,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-r8',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = cap.',
+        prompt: 'Escribe en inglés: «gorra».',
         answer: 'cap',
         explanation: 'La expresión que estamos fijando es «cap».',
         skill: 'vocabulary',
@@ -2308,8 +2277,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-r9',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = umbrella.',
+        prompt: 'Escribe en inglés: «paraguas».',
         answer: 'umbrella',
         explanation: 'La expresión que estamos fijando es «umbrella».',
         skill: 'vocabulary',
@@ -2317,7 +2285,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-r10',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = gloves.',
+        prompt: 'Escribe en inglés: «guantes».',
         answer: 'gloves',
         explanation: 'La expresión que estamos fijando es «gloves».',
         skill: 'vocabulary',
@@ -2327,7 +2295,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-exam-1',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «scarf».',
+        prompt: 'You wear this around your neck when it is cold. What is it?',
         options: ['scarf', 'watch', 'wallet', 'belt'],
         answer: 'scarf',
         explanation: 'La respuesta correcta es «scarf». Repítela en voz alta y úsala en una frase.',
@@ -2336,7 +2304,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-exam-2',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «watch».',
+        prompt: 'You wear this on your wrist to tell the time. What is it?',
         options: ['wallet', 'belt', 'scarf', 'watch'],
         answer: 'watch',
         explanation: 'La respuesta correcta es «watch». Repítela en voz alta y úsala en una frase.',
@@ -2345,7 +2313,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-exam-3',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «belt».',
+        prompt: 'You wear this around your waist. What is it?',
         options: ['wallet', 'watch', 'scarf', 'belt'],
         answer: 'belt',
         explanation: 'La respuesta correcta es «belt». Repítela en voz alta y úsala en una frase.',
@@ -2354,7 +2322,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-exam-4',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «wallet».',
+        prompt: 'You keep money and cards in this. What is it?',
         options: ['wallet', 'scarf', 'watch', 'belt'],
         answer: 'wallet',
         explanation:
@@ -2364,7 +2332,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-exam-5',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «bracelet».',
+        prompt: 'You wear this piece of jewellery around your wrist. What is it?',
         options: ['bracelet', 'watch', 'scarf', 'belt'],
         answer: 'bracelet',
         explanation:
@@ -2374,7 +2342,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-exam-6',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «ring».',
+        prompt: 'You wear this piece of jewellery on a finger. What is it?',
         options: ['ring', 'scarf', 'watch', 'belt'],
         answer: 'ring',
         explanation: 'La respuesta correcta es «ring». Repítela en voz alta y úsala en una frase.',
@@ -2383,7 +2351,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-exam-7',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «suitcase».',
+        prompt: 'You put clothes in this when you travel. What is it?',
         options: ['scarf', 'belt', 'watch', 'suitcase'],
         answer: 'suitcase',
         explanation:
@@ -2393,7 +2361,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-exam-8',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «cap».',
+        prompt: 'You wear this on your head. What is it?',
         options: ['belt', 'watch', 'scarf', 'cap'],
         answer: 'cap',
         explanation: 'La respuesta correcta es «cap». Repítela en voz alta y úsala en una frase.',
@@ -2402,7 +2370,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-exam-9',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «umbrella».',
+        prompt: 'You use this to stay dry in the rain. What is it?',
         options: ['umbrella', 'belt', 'scarf', 'watch'],
         answer: 'umbrella',
         explanation:
@@ -2412,7 +2380,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-exam-10',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «gloves».',
+        prompt: 'You wear these on your hands when it is cold. What are they?',
         options: ['belt', 'watch', 'gloves', 'scarf'],
         answer: 'gloves',
         explanation:
@@ -2422,7 +2390,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-exam-11',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «cotton».',
+        prompt: 'Which soft natural material is often used to make T-shirts?',
         options: ['cotton', 'belt', 'scarf', 'watch'],
         answer: 'cotton',
         explanation:
@@ -2432,7 +2400,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-exam-12',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «gold».',
+        prompt: 'Which yellow precious metal is used for jewellery?',
         options: ['belt', 'watch', 'gold', 'scarf'],
         answer: 'gold',
         explanation: 'La respuesta correcta es «gold». Repítela en voz alta y úsala en una frase.',
@@ -2441,7 +2409,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-exam-13',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «leather».',
+        prompt: 'Which material can be used for shoes and comes from animal skin?',
         options: ['scarf', 'belt', 'watch', 'leather'],
         answer: 'leather',
         explanation:
@@ -2451,7 +2419,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-exam-14',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «rubber».',
+        prompt: 'Which flexible material is used for things such as boots and tyres?',
         options: ['scarf', 'belt', 'watch', 'rubber'],
         answer: 'rubber',
         explanation:
@@ -2461,7 +2429,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-exam-15',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «silver».',
+        prompt: 'Which grey precious metal is used for jewellery?',
         options: ['watch', 'silver', 'belt', 'scarf'],
         answer: 'silver',
         explanation:
@@ -2471,7 +2439,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-4-exam-16',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «wool».',
+        prompt: 'Which warm material can come from sheep?',
         options: ['scarf', 'belt', 'watch', 'wool'],
         answer: 'wool',
         explanation: 'La respuesta correcta es «wool». Repítela en voz alta y úsala en una frase.',
@@ -2567,7 +2535,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-v1',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «playing the drums».',
+        prompt: 'You make music by hitting drums with sticks. Which hobby is it?',
         options: ['playing the drums', 'dancing', 'singing songs', 'cooking'],
         answer: 'playing the drums',
         explanation:
@@ -2577,7 +2545,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-v2',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «singing songs».',
+        prompt: 'You use your voice to make music. Which hobby is it?',
         options: ['playing the drums', 'cooking', 'dancing', 'singing songs'],
         answer: 'singing songs',
         explanation:
@@ -2587,7 +2555,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-v3',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «dancing».',
+        prompt: 'You move your body to music. Which hobby is it?',
         options: ['dancing', 'playing the drums', 'singing songs', 'cooking'],
         answer: 'dancing',
         explanation:
@@ -2597,7 +2565,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-v4',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «cooking».',
+        prompt: 'You prepare food in the kitchen. Which hobby is it?',
         options: ['dancing', 'singing songs', 'playing the drums', 'cooking'],
         answer: 'cooking',
         explanation:
@@ -2607,7 +2575,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-v5',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «skateboarding».',
+        prompt: 'You ride on a board with four small wheels. Which hobby is it?',
         options: ['skateboarding', 'singing songs', 'playing the drums', 'dancing'],
         answer: 'skateboarding',
         explanation:
@@ -2617,7 +2585,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-v6',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «playing tennis».',
+        prompt: 'You hit a ball over a net with a racket. Which hobby is it?',
         options: ['playing the drums', 'dancing', 'singing songs', 'playing tennis'],
         answer: 'playing tennis',
         explanation:
@@ -2627,7 +2595,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-v7',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «growing vegetables».',
+        prompt: 'You plant and look after food such as carrots or tomatoes. Which hobby is it?',
         options: ['playing the drums', 'growing vegetables', 'singing songs', 'dancing'],
         answer: 'growing vegetables',
         explanation:
@@ -2637,7 +2605,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-v8',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «collecting stickers».',
+        prompt: 'You keep and organise small adhesive pictures. Which hobby is it?',
         options: ['dancing', 'collecting stickers', 'singing songs', 'playing the drums'],
         answer: 'collecting stickers',
         explanation:
@@ -2647,7 +2615,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-v9',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «doing puzzles».',
+        prompt: 'You solve pieces or problems for fun. Which hobby is it?',
         options: ['doing puzzles', 'singing songs', 'dancing', 'playing the drums'],
         answer: 'doing puzzles',
         explanation:
@@ -2657,7 +2625,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-v10',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «reading magazines».',
+        prompt: 'You read publications with articles and pictures. Which hobby is it?',
         options: ['dancing', 'reading magazines', 'singing songs', 'playing the drums'],
         answer: 'reading magazines',
         explanation:
@@ -2732,8 +2700,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-r1',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = playing the drums.',
+        prompt: 'Escribe en inglés: «tocar la batería».',
         answer: 'playing the drums',
         explanation: 'La expresión que estamos fijando es «playing the drums».',
         skill: 'vocabulary',
@@ -2741,8 +2708,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-r2',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = singing songs.',
+        prompt: 'Escribe en inglés: «cantar canciones».',
         answer: 'singing songs',
         explanation: 'La expresión que estamos fijando es «singing songs».',
         skill: 'vocabulary',
@@ -2750,7 +2716,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-r3',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = dancing.',
+        prompt: 'Escribe en inglés: «bailar».',
         answer: 'dancing',
         explanation: 'La expresión que estamos fijando es «dancing».',
         skill: 'vocabulary',
@@ -2758,7 +2724,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-r4',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = cooking.',
+        prompt: 'Escribe en inglés: «cocinar».',
         answer: 'cooking',
         explanation: 'La expresión que estamos fijando es «cooking».',
         skill: 'vocabulary',
@@ -2766,8 +2732,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-r5',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = skateboarding.',
+        prompt: 'Escribe en inglés: «montar en monopatín».',
         answer: 'skateboarding',
         explanation: 'La expresión que estamos fijando es «skateboarding».',
         skill: 'vocabulary',
@@ -2775,8 +2740,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-r6',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = playing tennis.',
+        prompt: 'Escribe en inglés: «jugar al tenis».',
         answer: 'playing tennis',
         explanation: 'La expresión que estamos fijando es «playing tennis».',
         skill: 'vocabulary',
@@ -2784,8 +2748,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-r7',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = growing vegetables.',
+        prompt: 'Escribe en inglés: «cultivar verduras».',
         answer: 'growing vegetables',
         explanation: 'La expresión que estamos fijando es «growing vegetables».',
         skill: 'vocabulary',
@@ -2793,8 +2756,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-r8',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = collecting stickers.',
+        prompt: 'Escribe en inglés: «coleccionar pegatinas».',
         answer: 'collecting stickers',
         explanation: 'La expresión que estamos fijando es «collecting stickers».',
         skill: 'vocabulary',
@@ -2802,8 +2764,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-r9',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = doing puzzles.',
+        prompt: 'Escribe en inglés: «hacer puzles».',
         answer: 'doing puzzles',
         explanation: 'La expresión que estamos fijando es «doing puzzles».',
         skill: 'vocabulary',
@@ -2811,8 +2772,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-r10',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = reading magazines.',
+        prompt: 'Escribe en inglés: «leer revistas».',
         answer: 'reading magazines',
         explanation: 'La expresión que estamos fijando es «reading magazines».',
         skill: 'vocabulary',
@@ -2822,7 +2782,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-exam-1',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «playing the drums».',
+        prompt: 'You make music by hitting drums with sticks. Which hobby is it?',
         options: ['playing the drums', 'dancing', 'singing songs', 'cooking'],
         answer: 'playing the drums',
         explanation:
@@ -2832,7 +2792,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-exam-2',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «singing songs».',
+        prompt: 'You use your voice to make music. Which hobby is it?',
         options: ['playing the drums', 'cooking', 'dancing', 'singing songs'],
         answer: 'singing songs',
         explanation:
@@ -2842,7 +2802,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-exam-3',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «dancing».',
+        prompt: 'You move your body to music. Which hobby is it?',
         options: ['dancing', 'playing the drums', 'singing songs', 'cooking'],
         answer: 'dancing',
         explanation:
@@ -2852,7 +2812,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-exam-4',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «cooking».',
+        prompt: 'You prepare food in the kitchen. Which hobby is it?',
         options: ['dancing', 'singing songs', 'playing the drums', 'cooking'],
         answer: 'cooking',
         explanation:
@@ -2862,7 +2822,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-exam-5',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «skateboarding».',
+        prompt: 'You ride on a board with four small wheels. Which hobby is it?',
         options: ['skateboarding', 'singing songs', 'playing the drums', 'dancing'],
         answer: 'skateboarding',
         explanation:
@@ -2872,7 +2832,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-exam-6',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «playing tennis».',
+        prompt: 'You hit a ball over a net with a racket. Which hobby is it?',
         options: ['playing the drums', 'dancing', 'singing songs', 'playing tennis'],
         answer: 'playing tennis',
         explanation:
@@ -2882,7 +2842,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-exam-7',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «growing vegetables».',
+        prompt: 'You plant and look after food such as carrots or tomatoes. Which hobby is it?',
         options: ['playing the drums', 'growing vegetables', 'singing songs', 'dancing'],
         answer: 'growing vegetables',
         explanation:
@@ -2892,7 +2852,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-exam-8',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «collecting stickers».',
+        prompt: 'You keep and organise small adhesive pictures. Which hobby is it?',
         options: ['dancing', 'collecting stickers', 'singing songs', 'playing the drums'],
         answer: 'collecting stickers',
         explanation:
@@ -2902,7 +2862,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-exam-9',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «doing puzzles».',
+        prompt: 'You solve pieces or problems for fun. Which hobby is it?',
         options: ['doing puzzles', 'singing songs', 'dancing', 'playing the drums'],
         answer: 'doing puzzles',
         explanation:
@@ -2912,7 +2872,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-exam-10',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «reading magazines».',
+        prompt: 'You read publications with articles and pictures. Which hobby is it?',
         options: ['dancing', 'reading magazines', 'singing songs', 'playing the drums'],
         answer: 'reading magazines',
         explanation:
@@ -2987,8 +2947,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-exam-18',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = playing the drums.',
+        prompt: 'Escribe en inglés: «tocar la batería».',
         answer: 'playing the drums',
         explanation: 'La expresión que estamos fijando es «playing the drums».',
         skill: 'vocabulary',
@@ -2996,8 +2955,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-exam-19',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = singing songs.',
+        prompt: 'Escribe en inglés: «cantar canciones».',
         answer: 'singing songs',
         explanation: 'La expresión que estamos fijando es «singing songs».',
         skill: 'vocabulary',
@@ -3005,7 +2963,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-5-exam-20',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = dancing.',
+        prompt: 'Escribe en inglés: «bailar».',
         answer: 'dancing',
         explanation: 'La expresión que estamos fijando es «dancing».',
         skill: 'vocabulary',
@@ -3066,7 +3024,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-v1',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «campsite».',
+        prompt: 'Where do people stay in tents on holiday?',
         options: ['campsite', 'forest', 'signpost', 'tent'],
         answer: 'campsite',
         explanation:
@@ -3076,7 +3034,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-v2',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «tent».',
+        prompt: 'What do you sleep in when camping?',
         options: ['tent', 'campsite', 'signpost', 'forest'],
         answer: 'tent',
         explanation: 'La respuesta correcta es «tent». Repítela en voz alta y úsala en una frase.',
@@ -3085,7 +3043,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-v3',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «forest».',
+        prompt: 'What place has lots of trees?',
         options: ['forest', 'tent', 'signpost', 'campsite'],
         answer: 'forest',
         explanation:
@@ -3095,7 +3053,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-v4',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «signpost».',
+        prompt: 'What shows directions on a path?',
         options: ['signpost', 'campsite', 'tent', 'forest'],
         answer: 'signpost',
         explanation:
@@ -3105,7 +3063,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-v5',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «river».',
+        prompt: 'What natural feature has water flowing along it?',
         options: ['river', 'campsite', 'tent', 'forest'],
         answer: 'river',
         explanation: 'La respuesta correcta es «river». Repítela en voz alta y úsala en una frase.',
@@ -3114,7 +3072,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-v6',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «rucksack».',
+        prompt: 'What do you carry on your back with your things inside?',
         options: ['forest', 'rucksack', 'campsite', 'tent'],
         answer: 'rucksack',
         explanation:
@@ -3124,7 +3082,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-v7',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «bridge».',
+        prompt: 'What structure helps you cross a river?',
         options: ['bridge', 'tent', 'campsite', 'forest'],
         answer: 'bridge',
         explanation:
@@ -3134,7 +3092,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-v8',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «waterproof coat».',
+        prompt: 'What do you wear to stay dry in the rain?',
         options: ['forest', 'tent', 'waterproof coat', 'campsite'],
         answer: 'waterproof coat',
         explanation:
@@ -3144,7 +3102,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-v9',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «compass».',
+        prompt: 'What tool helps you find north and directions?',
         options: ['forest', 'tent', 'compass', 'campsite'],
         answer: 'compass',
         explanation:
@@ -3154,7 +3112,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-v10',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «torch».',
+        prompt: 'What do you use to see in the dark when camping?',
         options: ['campsite', 'forest', 'tent', 'torch'],
         answer: 'torch',
         explanation: 'La respuesta correcta es «torch». Repítela en voz alta y úsala en una frase.',
@@ -3223,8 +3181,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-r1',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = campsite.',
+        prompt: 'Escribe en inglés: «camping».',
         answer: 'campsite',
         explanation: 'La expresión que estamos fijando es «campsite».',
         skill: 'vocabulary',
@@ -3232,7 +3189,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-r2',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = tent.',
+        prompt: 'Escribe en inglés: «tienda de campaña».',
         answer: 'tent',
         explanation: 'La expresión que estamos fijando es «tent».',
         skill: 'vocabulary',
@@ -3240,7 +3197,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-r3',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = forest.',
+        prompt: 'Escribe en inglés: «bosque».',
         answer: 'forest',
         explanation: 'La expresión que estamos fijando es «forest».',
         skill: 'vocabulary',
@@ -3248,8 +3205,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-r4',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = signpost.',
+        prompt: 'Escribe en inglés: «señal / poste indicador».',
         answer: 'signpost',
         explanation: 'La expresión que estamos fijando es «signpost».',
         skill: 'vocabulary',
@@ -3257,7 +3213,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-r5',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = river.',
+        prompt: 'Escribe en inglés: «río».',
         answer: 'river',
         explanation: 'La expresión que estamos fijando es «river».',
         skill: 'vocabulary',
@@ -3265,8 +3221,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-r6',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = rucksack.',
+        prompt: 'Escribe en inglés: «mochila».',
         answer: 'rucksack',
         explanation: 'La expresión que estamos fijando es «rucksack».',
         skill: 'vocabulary',
@@ -3274,7 +3229,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-r7',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = bridge.',
+        prompt: 'Escribe en inglés: «puente».',
         answer: 'bridge',
         explanation: 'La expresión que estamos fijando es «bridge».',
         skill: 'vocabulary',
@@ -3282,8 +3237,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-r8',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = waterproof coat.',
+        prompt: 'Escribe en inglés: «impermeable».',
         answer: 'waterproof coat',
         explanation: 'La expresión que estamos fijando es «waterproof coat».',
         skill: 'vocabulary',
@@ -3291,7 +3245,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-r9',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = compass.',
+        prompt: 'Escribe en inglés: «brújula».',
         answer: 'compass',
         explanation: 'La expresión que estamos fijando es «compass».',
         skill: 'vocabulary',
@@ -3299,7 +3253,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-r10',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = torch.',
+        prompt: 'Escribe en inglés: «linterna».',
         answer: 'torch',
         explanation: 'La expresión que estamos fijando es «torch».',
         skill: 'vocabulary',
@@ -3309,7 +3263,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-exam-1',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «campsite».',
+        prompt: 'Where do people stay in tents on holiday?',
         options: ['campsite', 'forest', 'signpost', 'tent'],
         answer: 'campsite',
         explanation:
@@ -3319,7 +3273,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-exam-2',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «tent».',
+        prompt: 'What do you sleep in when camping?',
         options: ['tent', 'campsite', 'signpost', 'forest'],
         answer: 'tent',
         explanation: 'La respuesta correcta es «tent». Repítela en voz alta y úsala en una frase.',
@@ -3328,7 +3282,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-exam-3',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «forest».',
+        prompt: 'What place has lots of trees?',
         options: ['forest', 'tent', 'signpost', 'campsite'],
         answer: 'forest',
         explanation:
@@ -3338,7 +3292,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-exam-4',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «signpost».',
+        prompt: 'What shows directions on a path?',
         options: ['signpost', 'campsite', 'tent', 'forest'],
         answer: 'signpost',
         explanation:
@@ -3348,7 +3302,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-exam-5',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «river».',
+        prompt: 'What natural feature has water flowing along it?',
         options: ['river', 'campsite', 'tent', 'forest'],
         answer: 'river',
         explanation: 'La respuesta correcta es «river». Repítela en voz alta y úsala en una frase.',
@@ -3357,7 +3311,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-exam-6',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «rucksack».',
+        prompt: 'What do you carry on your back with your things inside?',
         options: ['forest', 'rucksack', 'campsite', 'tent'],
         answer: 'rucksack',
         explanation:
@@ -3367,7 +3321,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-exam-7',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «bridge».',
+        prompt: 'What structure helps you cross a river?',
         options: ['bridge', 'tent', 'campsite', 'forest'],
         answer: 'bridge',
         explanation:
@@ -3377,7 +3331,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-exam-8',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «waterproof coat».',
+        prompt: 'What do you wear to stay dry in the rain?',
         options: ['forest', 'tent', 'waterproof coat', 'campsite'],
         answer: 'waterproof coat',
         explanation:
@@ -3387,7 +3341,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-exam-9',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «compass».',
+        prompt: 'What tool helps you find north and directions?',
         options: ['forest', 'tent', 'compass', 'campsite'],
         answer: 'compass',
         explanation:
@@ -3397,7 +3351,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-exam-10',
         type: 'choice',
-        prompt: 'Elige la opción correcta para practicar: «torch».',
+        prompt: 'What do you use to see in the dark when camping?',
         options: ['campsite', 'forest', 'tent', 'torch'],
         answer: 'torch',
         explanation: 'La respuesta correcta es «torch». Repítela en voz alta y úsala en una frase.',
@@ -3466,8 +3420,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-exam-18',
         type: 'fill',
-        prompt:
-          'Escribe exactamente la palabra o expresión que falta: I remember «___» = campsite.',
+        prompt: 'Escribe en inglés: «camping».',
         answer: 'campsite',
         explanation: 'La expresión que estamos fijando es «campsite».',
         skill: 'vocabulary',
@@ -3475,7 +3428,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-exam-19',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = tent.',
+        prompt: 'Escribe en inglés: «tienda de campaña».',
         answer: 'tent',
         explanation: 'La expresión que estamos fijando es «tent».',
         skill: 'vocabulary',
@@ -3483,7 +3436,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-6-exam-20',
         type: 'fill',
-        prompt: 'Escribe exactamente la palabra o expresión que falta: I remember «___» = forest.',
+        prompt: 'Escribe en inglés: «bosque».',
         answer: 'forest',
         explanation: 'La expresión que estamos fijando es «forest».',
         skill: 'vocabulary',

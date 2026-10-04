@@ -105,7 +105,7 @@ import { ProgressService } from '../../core/services/progress.service';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ExamComponent {
-  readonly id = input.required<string>();
+  readonly id = input<string>('');
   readonly unit = computed(() => UNITS.find((u) => u.id === this.id()));
   readonly started = signal(false);
   readonly finished = signal(false);
