@@ -1066,7 +1066,8 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-v1',
         type: 'choice',
-        prompt: 'You go to places with exhibitions and old or interesting objects. What activity is it?',
+        prompt:
+          'You go to places with exhibitions and old or interesting objects. What activity is it?',
         options: ['play the piano', 'visit museums', 'paint pictures', 'visit your grandparents'],
         answer: 'visit museums',
         explanation:
@@ -1299,7 +1300,8 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-2-exam-1',
         type: 'choice',
-        prompt: 'You go to places with exhibitions and old or interesting objects. What activity is it?',
+        prompt:
+          'You go to places with exhibitions and old or interesting objects. What activity is it?',
         options: ['play the piano', 'visit museums', 'paint pictures', 'visit your grandparents'],
         answer: 'visit museums',
         explanation:
@@ -1554,7 +1556,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-v3',
         type: 'choice',
-        prompt: "Where can you buy newspapers and magazines?",
+        prompt: 'Where can you buy newspapers and magazines?',
         options: ['food market', "newsagent's", 'train station', 'cinema'],
         answer: "newsagent's",
         explanation:
@@ -1786,7 +1788,7 @@ export const UNITS: LearningUnit[] = [
       {
         id: 'unit-3-exam-3',
         type: 'choice',
-        prompt: "Where can you buy newspapers and magazines?",
+        prompt: 'Where can you buy newspapers and magazines?',
         options: ['food market', "newsagent's", 'train station', 'cinema'],
         answer: "newsagent's",
         explanation:
