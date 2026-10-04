@@ -18,3 +18,8 @@ npm start
 ## Contenido
 
 Starter, Units 1–6, Review 1–3 y Festivals, alineados con el temario del Pupil's Book 4 aportado como referencia.
+
+## Calidad y despliegue
+
+Antes de subir cambios ejecuta `npm run check`. El proyecto incluye CI y despliegue a GitHub Pages desde `main`.
+La aplicación arranca en modo zoneless mediante `provideZonelessChangeDetection()` en `app.config.ts`.
