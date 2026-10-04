@@ -35,8 +35,11 @@ export class ProgressService {
   }
 
   private load(): Record<string, UnitProgress> {
-    try { return JSON.parse(localStorage.getItem(this.key) ?? '{}') as Record<string, UnitProgress>; }
-    catch { return {}; }
+    try {
+      return JSON.parse(localStorage.getItem(this.key) ?? '{}') as Record<string, UnitProgress>;
+    } catch {
+      return {};
+    }
   }
   private save(value: Record<string, UnitProgress>): void {
     localStorage.setItem(this.key, JSON.stringify(value));
